@@ -67,3 +67,16 @@ prices_corr.max()
 prices["corr"] = np.arange(12)
 prices["GOOG"]
 prices.loc[[0], :]
+
+print(prices.sort_values("GOOG"))
+
+def add(a, b):
+    a+b
+
+x = add(1, 2)
+
+list = [1,2,3,4,5]
+list.remove(2)
+print(list)
+
+list(reversed(range(1,11)))
